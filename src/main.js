@@ -40,7 +40,7 @@ function isUndefined(obj) {
   return obj === void 0;  // eslint-disable-line no-void
 }
 
-var MAX_ARRAY_INDEX = Math.pow(2, 53) - 1;
+var MAX_ARRAY_INDEX = 2 ** 53 - 1;
 
 function isArrayLike(obj) {
   if (obj == null) {
